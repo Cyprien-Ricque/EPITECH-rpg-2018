@@ -1,9 +1,14 @@
 # MUL_my_rpg_2018
 
-In this file, you can find the description of each functionalities of the programm
+Epitech project whose goal is to create a rpg game in C. This project includes a 3D world in which you have to move tanks on crates while not getting killed by AIs.
 
 This game is inspired by the game Advanced Wars develloped by Intelligent Systems and edited by Nintendo.
 
+### Developers
+
+Emilien Delevoye
+Charles Dubret
+Paul Surrans
 
 
 ## Description :
@@ -13,17 +18,14 @@ This game is inspired by the game Advanced Wars develloped by Intelligent System
 The main menu contains three buttons, the first "Play", launch the game, the second, "Settings", launch the settings menu and the third, "Quit", exit the game instantly.
 
 
-
 ### The settings menu :
 
 The settings menu is composed by 4 options, the first set or unset the game in fullscreen, the second enable or disable the Vsync, the third change the framerate (30, 60 or 120 ips) and the last enable or disable the music
 
 
-
 ### The pause menu :
 
 The pause menu is composed by 4 options, the play button, the settings button, the quit button and the back button to come back to the main menu.
-
 
 
 ### The history of the game :
@@ -42,13 +44,11 @@ Left click -> Press : Activate the button
 Left click -> Press and release : Click on the button
 
 
-
 #### In the dialogs :
 
 Space -> Pass to the next sentence
 S -> Skip the current dialog
 Escape -> Launch the pause menu
-
 
 
 #### On the map :
@@ -76,7 +76,6 @@ E -> Open or close the inventory
 S -S Open or close the shop menu
 
 C -> Cancel a tank movement
-
 
 
 #### In the fights :
