@@ -1,0 +1,63 @@
+legend {
+    landscape {
+    	water:0
+		flat:1
+		montain:2
+    }
+    units {
+        basic:0
+		tank:1
+		helicopter:2
+		shop:3
+    }
+    team {
+    	red:r
+    	blue:b
+    }
+    rotation {
+        front_left:0
+		front_right:1
+		back_right:2
+		back_left:3
+    }
+}
+
+
+//letter (or # (which is the first map)) are links to the map with same letter
+
+maps {
+     //when you write a map, remember you are writing the height of a point not a case.
+     //So the perso you put on a point will be beetween the 4 points around him.
+     //you understood it : you can't put a perso in the last line and in the las column
+    size:4
+    names:#abc
+    # {
+    	size {
+    	    size_x:20
+    	    size_y:20
+    	    size_z:3
+    	}
+    	data {
+			:2 2 2 2 1 a 1 1 2 2 1 1 1 1 1 1 1 1 1 1
+			:2 1 1 1 1 1 1 0 1 2 1 1 1 1 1 1 1 1 1 1
+			:1 1 1 1 0 1 1 2 2 2 1 1 1 1 1 1 1 1 1 1
+			:1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			:2 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1
+			:2 2 2 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1
+			:1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1
+			:2 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+			:2 1 1 1 2 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1
+			:2 2 2 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1
+		    :2 1 1 1 1 1 0 0 0 0 0 1 1 1 2 1 1 1 1 1
+		    :2 1 1 1 1 1 1 0 0 0 0 1 2 2 1 1 1 1 1 1
+            :2 1 1 1 1 2 1 1 0 0 0 1 2 1 1 1 1 1 1 1
+            :2 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 11r2 2 2
+            :2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2
+            :2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+            :2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 133 1 1
+            :2 1 1 2 2 1 2 2 1 1 1 1 1 1 1 1 1 1 1 1
+            :2 2 1 2 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2
+            :2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+		}
+    }
+}

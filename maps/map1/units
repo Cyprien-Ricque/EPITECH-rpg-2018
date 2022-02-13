@@ -1,0 +1,21 @@
+units {
+    size:3
+	basic {
+		attack:30
+		life:100
+		defense:30
+		moves:6
+	}
+	fast {
+		attack:30
+		life:100
+		defense:20
+		moves:8
+	}
+	strong {
+		attack:40
+		life:100
+		defense:30
+		moves:4
+	}
+}
